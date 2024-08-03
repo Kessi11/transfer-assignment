@@ -4,3 +4,20 @@ Lucy had recently stumbled upon an extraordinary tool called Git. Although initi
 
 One chilly morning, the CodeSpring team gathered for their daily stand-up meeting. Their latest project, a sleek new app for local businesses, was progressing smoothly—until it wasn’t. Max, the lead developer, broke the news that a critical bug had surfaced, and it threatened to derail their launch timeline.
 
+"We need to find out who made the changes that caused this," Max said, frustration evident in his voice.
+
+Lucy, always one to seek solutions rather than dwell on problems, stepped up. "I think Git can help us here," she suggested.
+
+With a mixture of curiosity and desperation, the team followed Lucy to her desk. She opened her laptop, navigated to the project's repository, and began typing commands with a confidence that belied her quiet demeanor.
+
+"First, let's use git log to check the commit history and find where the bug might have been introduced," she explained. The team watched as lines of text scrolled by, detailing every change made to the codebase.
+
+"Here," Lucy said, pointing to a specific commit. "This one looks suspicious. Let's see what was changed using git diff."
+
+The screen displayed the changes in vivid color, highlighting the exact lines of code that had been altered. The culprit was a small, seemingly innocuous change to a critical function.
+
+"It looks like this commit is the source of the bug," Lucy confirmed. "We can revert it using git revert and create a new commit to fix the issue."
+
+With a few more keystrokes, Lucy executed the revert. The team held their breath as they ran the tests again. This time, everything passed.
+
+Max's tense shoulders relaxed, and a collective sigh of relief swept through the room. "Lucy, that was amazing," he said, genuine admiration in his voice. "You just saved us days of work."
